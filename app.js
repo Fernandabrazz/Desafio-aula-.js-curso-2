@@ -7,41 +7,15 @@ function verificarChute() {
 
 }
 
-
+//4.Crie uma função que exiba um alerta com a mensagem: Eu amo JS, sempre que o botão Alerta for pressionado.
 alert("Eu amo JS")
 
 let pergunta = prompt('Qual o nome da sua cidade?');
+
+//5.Crie uma função que é executada quando o botão prompt é clicado, perguntando o nome de uma cidade do Brasil. Em seguida, exiba um alerta com a mensagem concatenando a resposta com o texto: Estive em {cidade} e lembrei de você.
 
 let mensagem = `Estive em ${pergunta} e lembrei de você.`;
 alert(mensagem);
 
 
 
-function Soma() {
-    let numero1 = prompt('Digite o primeiro número:');
-    
-    if (isNaN(numero1)) {
-        alert('Por favor, digite um número válido para o primeiro valor.');
-        return;
-    }
-    let numero2 = prompt('Digite o segundo número:');
-
-    if (isNaN(numero2)) {
-        alert('Por favor, digite um número válido para o segundo valor.');
-        return;
-    }
-
-    let resultado = parseFloat(numero1) + parseFloat(numero2);
-
-    alert(`A soma de ${numero1} e ${numero2} é: ${resultado}`);
-}
-
-// Função para ativar o botão
-function ativarBotao() {
-    document.getElementById('reiniciar').removeAttribute('disabled');
-}
-
-// Ativando o botão após algum evento (por exemplo, quando a página carrega)
-window.onload = function() {
-    ativarBotao();
-};
