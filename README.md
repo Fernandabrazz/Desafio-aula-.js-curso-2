@@ -16,6 +16,8 @@ Desafios
 
 4.Crie uma função que exiba um alerta com a mensagem: Eu amo JS, sempre que o botão Alerta for pressionado.
 
+RESOLUÇÃO ALURA: https://github.com/alura-cursos/js-curso-2/blob/desafio_1_respostas/readme.md#resolu%C3%A7%C3%A3o-dos-desafios-1
+
 5.Crie uma função que é executada quando o botão prompt é clicado, perguntando o nome de uma cidade do Brasil. Em seguida, exiba um alerta com a mensagem concatenando a resposta com o texto: Estive em {cidade} e lembrei de você.
 
 6.Ao clicar no botão soma, peça 2 números e exiba o resultado da soma em um alerta.
