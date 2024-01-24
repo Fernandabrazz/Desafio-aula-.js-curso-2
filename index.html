@@ -11,6 +11,7 @@
         rel="stylesheet">
     <link rel="stylesheet" href="style.css">
     <title>JS Game</title>
+    
     <title>Ativar Botão</title>
 
 </head>
@@ -34,6 +35,8 @@
         </div>
     </div>
 <script>
+    //6.Ao clicar no botão soma, peça 2 números e exiba o resultado da soma em um alerta.
+
     function Soma() {
         let numero1 = prompt('Digite o primeiro número:');
         
@@ -59,7 +62,8 @@
         document.getElementById('reiniciar').removeAttribute('disabled');
     }
     
-    // Ativando o botão após algum evento (por exemplo, quando a página carrega)
+    // Ativando o botão após algum evento (por exemplo, quando a página carrega) - 
+    //No <head> foi incluso o <title>Ativar Botão</title>.
     window.onload = function() {
         ativarBotao();
     };
